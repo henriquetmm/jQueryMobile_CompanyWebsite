@@ -1,0 +1,113 @@
+{
+    "customers": [
+        {
+            "compId": 1,
+            "compName": "Walmart",
+            "compAddr": "Walmart Headquarters 702 S.W. 8th St. Bentonville, AK 72716",
+            "compContact": "Ryan Gosling",
+            "compPhone": "1-800-925-6278",
+            "compEmail": "walmart-info@walmart.com",
+            "invoices": [
+            ]
+        },
+        {
+            "compId": 2,
+            "compName": "Longos",
+            "compAddr": "Longo Brothers Fruit Markets Inc. 8800 Huntington Road Vaughan, ON L4H 3M6",
+            "compContact": "Christine Bowl",
+            "compPhone": "1-800-956-6467",
+            "compEmail": "1800@Longos.com",
+            "invoices": [
+        
+            ]
+        },
+        {
+            "compId": 3,
+            "compName": "Costo Wholesale",
+            "compAddr": "Costco Headquarters 999 Lake Dr. Issaquah, WA 98027",
+            "compContact": "Tyler Syndrome",
+            "compPhone": "1-425-313-8100",
+            "compEmail": "costo-help@costomail.com",
+            "invoices": [
+        
+            ]
+        },
+        {
+            "compId": 4,
+            "compName": "Sobeys",
+            "compAddr": "236 Brownlow Avenue, Suite 270 Dartmouth, Nova Scotia B3B 1V5",
+            "compContact": "Shaggy Doodo",
+            "compPhone": "1-902-468-1000",
+            "compEmail": "sobeysteam@sobeysnet.com",
+            "invoices": [
+        
+            ]
+        },
+        {
+            "compId": 5,
+            "compName": "Apple",
+            "compAddr": "Cupertino, California, United States",
+            "compContact": "Bill Gates",
+            "compPhone": "1-602-463-1040",
+            "compEmail": "applesupport@apple.com",
+            "invoices": [
+        
+            ]
+        },
+        {
+            "compId": 6,
+            "compName": "Sony",
+            "compAddr": "Minato, Tokyo, Japan",
+            "compContact": "Wenzu Liang",
+            "compPhone": "1-902-010-1010",
+            "compEmail": "sonyteam@sony.com",
+            "invoices": [
+        
+            ]
+        },
+        {
+            "compId": 7,
+            "compName": "Blackberry",
+            "compAddr": "Waterloo, Ontario, Canada",
+            "compContact": "Michael Jordan",
+            "compPhone": "1-342-568-9034",
+            "compEmail": "berryteam@bigberries.com",
+            "invoices": [
+        
+            ]
+        },
+        {
+            "compId": 8,
+            "compName": "Samsung",
+            "compAddr": "Seoul, South Korea",
+            "compContact": "Mijao Yun",
+            "compPhone": "1-456-839-9090",
+            "compEmail": "yunMijao@sam.com",
+            "invoices": [
+        
+            ]
+        },
+        {
+            "compId": 9,
+            "compName": "Bank of Montreal",
+            "compAddr": "Montreal, Quebec, Canada",
+            "compContact": "Le Poop",
+            "compPhone": "1-902-111-6969",
+            "compEmail": "lePoo@bmo.com",
+            "invoices": [
+        
+            ]
+        },
+        {
+            "compId": 10,
+            "compName": "Royal Bank of Canada",
+            "compAddr": "Montreal, Quebec, Canada",
+            "compContact": "George Bush",
+            "compPhone": "1-542-344-5545",
+            "compEmail": "georgebush@rbc.com",
+            "invoices": [
+        
+            ]
+        }
+    ]
+}

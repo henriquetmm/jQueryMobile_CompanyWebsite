@@ -1,0 +1,54 @@
+{
+	"products": [
+		{
+			"prodId": 1,
+			"prodDesc": "Crucial MX500 500GB 3D NAND SATA 2.5 inch Internal SSD - CT500MX500SSD1",
+			"prodAmt": 10	
+		},
+		{
+			"prodId": 2,
+			"prodDesc": "HAVIT HV-MS672 3200DPI Wired Mouse, 4 Adjustable DPI Levels, 800/1200/2400/3200DPI, 7 Circular & Breathing LED Light, 6 Buttons (Black)",
+			"prodAmt": 28	
+		},
+		{
+			"prodId": 3,
+			"prodDesc": "Rii RGB LED Wired Gaming Keyboard with Mechanical Feeling-RK900",
+			"prodAmt": 40	
+		},
+		{
+			"prodId": 4,
+			"prodDesc": "Gaming Mouse, [Newest Version] [7200 DPI] [Programmable] PICTEK Gaming Mice, Wired Computer Mouse with 7 Buttons, 16.8 Million Customized Breathing Light for Laptop/PC Game, Black",
+			"prodAmt": 17	
+		},
+		{
+			"prodId": 5,
+			"prodDesc": "Razer Cynosa Chroma – Multi-Color RGB Gaming Keyboard – Individually Backlit Keys – Spill-Resistant Durable Design",
+			"prodAmt": 23	
+		},
+		{
+			"prodId": 6,
+			"prodDesc": "Crucial MX500 1TB 3D NAND SATA M.2 (2280SS) Internal SSD - CT1000MX500SSD4",
+			"prodAmt": 45
+		},
+		{
+			"prodId": 7,
+			"prodDesc": "UGREEN USB to DB25 Parallel Printer Cable Adapter Male to Female Connector IEEE 1284 Converter for Laptop Desktop PC Supports Windows, Mac OS, Linux, 6ft",
+			"prodAmt": 38	
+		},
+		{
+			"prodId": 8,
+			"prodDesc": "600Mbps Wireless Network Adapter 802.11ac Dual Band 2.4G/5G WiFi USB Dongle, For PC Laptop Tablets, Windows XP, Vista, 7, 8, 8.1, 10, Mac OS X 10.5~10.12, Linux. 3 yrs' warranty",
+			"prodAmt": 44
+		},
+		{
+			"prodId": 9,
+			"prodDesc": "Yafda T54FJ 11.1V60WH New Laptop Battery for Dell Latitude E6420 E6430 E6520 E6530 E5420 E5520 E5430 E5530 -Dell Part T54FJ 6-Cell",
+			"prodAmt": 59	
+		},
+		{
+			"prodId": 10,
+			"prodDesc": "UGREEN DVI 24+5 DVI-I Dual Link to VGA Male to Male Digital Video Cable Gold Plated Support 1080P for Gaming, DVD, Laptop, HDTV and Projector, 5ft/1.5m",
+			"prodAmt": 38	
+		}
+	]
+}

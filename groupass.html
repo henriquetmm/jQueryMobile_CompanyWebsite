@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .head {
+            text-align: center;
+        }
+
+        #h1 {
+            font-weight: bold;
+            color: white;
+            font-size: 3vw;
+        }
+
+        #nav {
+            width: 100%;
+        }
+
+        #nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            float: left;
+            width: 20%;
+        }
+
+        #dog {
+
+            max-width: 100%;
+            width: auto\9;
+        }
+        .ui-listview-filter{
+            background-color: blue;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+     <link rel="stylesheet" href= "http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <link rel="stylesheet" href="themes1/tolenhen.css" />
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.31"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>
+         $(document).ready(function() {
+            $.ajax({
+                type: "GET",
+                url: "cust.json",
+                dataType: "json",
+                success: parseJSON
+            });
+        });
+
+            function parseJSON(data) {
+                var counter = 1;
+                for (var i = 0; i <= data.customers.length; i++) {
+                    
+                    $("#list").append("<li id='list" + counter + "'></li>").trigger("create");
+                    $("#list" + counter).append("<div id='div" + counter + "' data-role=\"collapsible\"></div>");
+                    $("#div" + counter).append("<h4>" + data.customers[i].compName + "</h4>");
+                    $("#div" + counter).append("<ul id='ul" + counter + "'></ul>");
+                    $("#ul" + counter).append("<li id='li" + counter + "'></li>");
+                    $("#li" + counter).append("<b>Company Contact: " + data.customers[i].compContact + "</b>");
+                    $("#ul" + counter).append("<li id='item" + counter + "'></li>");
+                    $("#item" + counter).append("<b>Company Phone: "+ data.customers[i].compPhone +"</b>");
+                    $("#div" + counter).append("<a class='ui-btn ui-icon-forward ui-btn-icon-left'>Invoices</a>");
+                    $("#div" + counter).append("<a href="+data.customers[i].compEmail+" class=\"ui-btn ui-icon-mail ui-btn-icon-left\">"+data.customers[i].compEmail+"</a>");
+                    
+                    $("#div" + counter).append("<a onclick=\"callMap(\'" + data.customers[i].compAddr + "\')\" href='map.html' class='ui-btn ui-icon-navigation ui-btn-icon-left'>Address: "+ data.customers[i].compAddr +"</a>");
+                    
+                    counter++;
+                }
+            };
+           
+        function callMap(address) {
+            if (navigator.geolocation) {
+                var _addr = address;
+                var geocoder = new google.maps.Geocoder();
+
+                geocoder.geocode({
+                    'address': _addr
+                }, function(results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        lat = results[0].geometry.location.lat();
+                        lng = results[0].geometry.location.lng();;
+                        drawMap(address);
+                    } else {
+                        alert("Wrong Address");
+                    }
+                });
+
+
+            } else {
+                alert('Geolocation Not Supported');
+            }
+        }
+
+
+        function drawMap(address) {
+            var mapOptions = {
+                center: new google.maps.LatLng(lat, lng),
+                zoom: 12,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map($("#map")[0], mapOptions);
+
+            var myMarker = new google.maps.Marker({
+                map: map,
+                animation: google.maps.Animation.DROP,
+                position: new google.maps.LatLng(lat, lng)
+
+            });
+            
+            var info = new google.maps.InfoWindow({
+                content: address,
+                maxWidth: 150
+            });
+            
+            google.maps.event.addListener(myMarker, "click", function() {info.open(map, myMarker);});
+        }
+       
+    </script>
+</head>
+
+<body>
+    <div data-role="page" id="page1" data-title="page1" data-theme="a">
+        <div class="head" data-role="header">
+            <h1 id="h1">SellMore Company Ltd</h1>
+            <div id="nav" data-role="navbar">
+                <div data-role="navbar">
+
+                    <ul>
+                        <li><a href="#" >Home</a></li>
+                        <li><a href="#">Products</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img id="dog" src="d.jpg" alt="Dogberg">
+            <h1>Customers: </h1>
+            <div>
+                <ul id="list" data-role="listview" data-filter="true" data-input="#filter-search" data-inset="true"  data-theme="a">
+                </ul>
+            </div>
+            
+            <div id="map" style="width:100%; height:500px"></div>
+            <dir id="addr"></dir>
+
+        </div>
+        
+        <div data-role="footer" class="foot">Brampton, ON Canada. I miss Koko.
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,484 @@
+{
+	"invoices": [
+		{
+			"invNum": 1,
+			"invdate": "June 12 2018",
+			"invAmt": 10,
+			"compId": 1,
+			"products": [
+				{
+					"prodId": 1,
+					"qty": 3
+				},
+				{
+					"prodId": 4,
+					"qty": 20
+				}
+			] 
+		},
+		{
+			"invNum": 2,
+			"invdate": "January 10 2018",
+			"invAmt": 30,
+			"compId": 1,
+			"products": [
+				{
+					"prodId": 2,
+					"qty": 15
+				},
+				{
+					"prodId": 3,
+					"qty": 5
+				}
+			] 
+		},
+		{
+			"invNum": 3,
+			"invdate": "Feburary 22 2018",
+			"invAmt": 27,
+			"compId": 1,
+			"products": [
+				{
+					"prodId": 6,
+					"qty": 34
+				},
+				{
+					"prodId": 8,
+					"qty": 11
+				}
+			] 
+		},
+		{
+			"invNum": 4,
+			"invdate": "April 12 2018",
+			"invAmt": 21,
+			"compId": 2,
+			"products": [
+				{
+					"prodId": 2,
+					"qty": 30
+				},
+				{
+					"prodId": 3,
+					"qty": 12
+				}
+			] 
+		},
+		{
+			"invNum": 5,
+			"invdate": "January 10 2018",
+			"invAmt": 17,
+			"compId": 2,
+			"products": [
+				{
+					"prodId": 3,
+					"qty": 11
+				},
+				{
+					"prodId": 10,
+					"qty": 50
+				}
+			] 
+		},
+		{
+			"invNum": 6,
+			"invdate": "March 22 2018",
+			"invAmt": 53,
+			"compId": 2,
+			"products": [
+				{
+					"prodId": 1,
+					"qty": 33
+				},
+				{
+					"prodId": 9,
+					"qty": 17
+				}
+			] 
+		},
+		{
+			"invNum": 7,
+			"invdate": "January 17 2018",
+			"invAmt": 12,
+			"compId": 3,
+			"products": [
+				{
+					"prodId": 5,
+					"qty": 30
+				},
+				{
+					"prodId": 7,
+					"qty": 12
+				}
+			] 
+		},
+		{
+			"invNum": 8,
+			"invdate": "February 17 2018",
+			"invAmt": 20,
+			"compId": 3,
+			"products": [
+				{
+					"prodId": 1,
+					"qty": 11
+				},
+				{
+					"prodId": 3,
+					"qty": 25
+				}
+			] 
+		},
+		{
+			"invNum": 9,
+			"invdate": "March 1 2018",
+			"invAmt": 30,
+			"compId": 3,
+			"products": [
+				{
+					"prodId": 8,
+					"qty": 12
+				},
+				{
+					"prodId": 9,
+					"qty": 23
+				}
+			] 
+		},
+		{
+			"invNum": 10,
+			"invdate": "October 27 2017",
+			"invAmt": 28,
+			"compId": 4,
+			"products": [
+				{
+					"prodId": 3,
+					"qty": 23
+				},
+				{
+					"prodId": 7,
+					"qty": 38
+				}
+			] 
+		},
+		{
+			"invNum": 11,
+			"invdate": "December 10 2017",
+			"invAmt": 12,
+			"compId": 4,
+			"products": [
+				{
+					"prodId": 10,
+					"qty": 37
+				},
+				{
+					"prodId": 3,
+					"qty": 33
+				}
+			] 
+		},
+		{
+			"invNum": 12,
+			"invdate": "March 1 2018",
+			"invAmt": 34,
+			"compId": 4,
+			"products": [
+				{
+					"prodId": 4,
+					"qty": 24
+				},
+				{
+					"prodId": 8,
+					"qty": 18
+				}
+			] 
+		},
+		{
+			"invNum": 13,
+			"invdate": "September 11 2017",
+			"invAmt": 32,
+			"compId": 5,
+			"products": [
+				{
+					"prodId": 2,
+					"qty": 40
+				},
+				{
+					"prodId": 3,
+					"qty": 35
+				}
+			]
+		},
+		{
+			"invNum": 14,
+			"invdate": "November 24 2017",
+			"invAmt": 24,
+			"compId": 5,
+			"products": [
+				{
+					"prodId": 6,
+					"qty": 20
+				},
+				{
+					"prodId": 4,
+					"qty": 30
+				}
+			] 
+		},
+		{
+			"invNum": 15,
+			"invdate": "February 18 2018",
+			"invAmt": 39,
+			"compId": 5,
+			"products": [
+				{
+					"prodId": 9,
+					"qty": 15
+				},
+				{
+					"prodId": 5,
+					"qty": 32
+				}
+			] 
+		},
+		{
+			"invNum": 16,
+			"invdate": "February 11 2018",
+			"invAmt": 15,
+			"compId": 6,
+			"products": [
+				{
+					"prodId": 1,
+					"qty": 45
+				},
+				{
+					"prodId": 9,
+					"qty": 30
+				}
+			] 
+		},
+		{
+			"invNum": 17,
+			"invdate": "June 24 2018",
+			"invAmt": 32,
+			"compId": 6,
+			"products": [
+				{
+					"prodId": 5,
+					"qty": 22
+				},
+				{
+					"prodId": 7,
+					"qty": 33
+				}
+			] 
+		},
+		{
+			"invNum": 18,
+			"invdate": "July 18 2018",
+			"invAmt": 30,
+			"compId": 6,
+			"products": [
+				{
+					"prodId": 9,
+					"qty": 15
+				},
+				{
+					"prodId": 6,
+					"qty": 30
+				}
+			] 
+		},
+		{
+			"invNum": 19,
+			"invdate": "January 3 2018",
+			"invAmt": 25,
+			"compId": 7,
+			"products": [
+				{
+					"prodId": 4,
+					"qty": 40
+				},
+				{
+					"prodId": 9,
+					"qty": 33
+				}
+			] 
+		},
+		{
+			"invNum": 20,
+			"invdate": "June 22 2018",
+			"invAmt": 30,
+			"compId": 7,
+			"products": [
+				{
+					"prodId": 7,
+					"qty": 20
+				},
+				{
+					"prodId": 10,
+					"qty": 25
+				}
+			] 
+		},
+		{
+			"invNum": 21,
+			"invdate": "July 10 2018",
+			"invAmt": 35,
+			"compId": 7,
+			"products": [
+				{
+					"prodId": 9,
+					"qty": 10
+				},
+				{
+					"prodId": 10,
+					"qty": 25
+				}
+			] 
+		},
+		{
+			"invNum": 22,
+			"invdate": "January 13 2018",
+			"invAmt": 20,
+			"compId": 8,
+			"products": [
+				{
+					"prodId": 1,
+					"qty": 12
+				},
+				{
+					"prodId": 4,
+					"qty": 30
+				}
+			] 
+		},
+		{
+			"invNum": 23,
+			"invdate": "May 25 2018",
+			"invAmt": 28,
+			"compId": 8,
+			"products": [
+				{
+					"prodId": 5,
+					"qty": 25
+				},
+				{
+					"prodId": 8,
+					"qty": 10
+				}
+			] 
+		},
+		{
+			"invNum": 24,
+			"invdate": "July 10 2018",
+			"invAmt": 30,
+			"compId": 8,
+			"products": [
+				{
+					"prodId": 3,
+					"qty": 15
+				},
+				{
+					"prodId": 9,
+					"qty": 20
+				}
+			] 
+		},
+		{
+			"invNum": 25,
+			"invdate": "November 13 2017",
+			"invAmt": 10,
+			"compId": 9,
+			"products": [
+				{
+					"prodId": 5,
+					"qty": 39
+				},
+				{
+					"prodId": 8,
+					"qty": 55
+				}
+			] 
+		},
+		{
+			"invNum": 26,
+			"invdate": "January 25 2018",
+			"invAmt": 45,
+			"compId": 9,
+			"products": [
+				{
+					"prodId": 7,
+					"qty": 25
+				},
+				{
+					"prodId": 10,
+					"qty": 15
+				}
+			] 
+		},
+		{
+			"invNum": 27,
+			"invdate": "July 21 2018",
+			"invAmt": 29,
+			"compId": 9,
+			"products": [
+				{
+					"prodId": 5,
+					"qty": 34
+				},
+				{
+					"prodId": 8,
+					"qty": 26
+				}
+			] 
+		},
+		{
+			"invNum": 28,
+			"invdate": "September 12 2017",
+			"invAmt": 35,
+			"compId": 10,
+			"products": [
+				{
+					"prodId": 10,
+					"qty": 34
+				},
+				{
+					"prodId": 9,
+					"qty": 50
+				}
+			] 
+		},
+		{
+			"invNum": 29,
+			"invdate": "December 25 2017",
+			"invAmt": 43,
+			"compId": 10,
+			"products": [
+				{
+					"prodId": 5,
+					"qty": 25
+				},
+				{
+					"prodId": 7,
+					"qty": 10
+				}
+			] 
+		},
+		{
+			"invNum": 30,
+			"invdate": "March 21 2018",
+			"invAmt": 45,
+			"compId": 10,
+			"products": [
+				{
+					"prodId": 6,
+					"qty": 40
+				},
+				{
+					"prodId": 8,
+					"qty": 56
+				}
+			] 
+		}
+	]
+}
